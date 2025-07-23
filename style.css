@@ -1,3 +1,103 @@
 body {
-    background-color: black;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2{
+    margin: 20px;
+}
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+#logo{
+    
+    height: auto;
+    width: 200px;
+    padding: 0;
+    object-fit: contain;
+    vertical-align: middle;
+}
+
+.head{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    background-color: #2F2F2F;
+    
+    
+}
+
+#ip{
+    border: none;
+    outline: none;
+    color: #2F2F2F;
+    font-size: 16px;
+    padding: 8px 12px;
+    height: 20px;
+    width: 400px;
+    border-radius: 6px;
+}
+
+#ip::placeholder{
+    color: #2F2F2F;
+}
+
+.navCon{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#navLinks{
+    text-decoration: none;
+    font-weight: bold;
+    
+    color: #3B82F6;
+
+}
+
+#navLinks:hover{
+    color: #FFF2E0;
+}
+
+.main1{
+    background-color: #63C8FF;
+    
+}
+
+.con2{
+    display: flex;
+    
+}
+
+.con2 > div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 14px;
+    background-color: #FFF2E0;
+    border-radius: 6px;
+    box-shadow: 
+    0 2px 4px rgba(0, 0, 0, 0.1),     
+    0 6px 20px rgba(0, 0, 0, 0.2);
+    
+}
+
+#HPimgs{
+    border-radius: 6px;
+}
+
+#addBtn{
+    border: none;
+    color: white;
+    background-color: #2F2F2F;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
 }
